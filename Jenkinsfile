@@ -6,7 +6,7 @@ maven "maven"
 stages{
 stage('build'){
 steps {
-sh 'mvn packages'
+sh 'mvn package'
 }
 }
 }
